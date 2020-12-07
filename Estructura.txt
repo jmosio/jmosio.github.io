@@ -1,0 +1,40 @@
+<!DOCTYPE html> Indica que estoy en HTML5
+<html lang="es"> Indica el lenguaje del contenido de la pagina
+
+    <head> Aqui se da la estructura que necesita el navigador para saber como es la pag (cerebro)
+        <title> Platzi de @jmosio </title> Muestra el titulo de la pestaña
+        <link rel="stylesheet" href="./css/estilos.css" /> llama a la relacion de estilos
+        <meta charset= "UTF-8"/> sirve para que el nvegador sepa que tiene caracteres especiales
+        <meta name="description" content="Pagina de muestra de aprendizaje de HTML con PLATZI.COM"/> muestra breve descricion al momento de estar en el buscador
+        <meta name="robots" content="index,follow" /> le indica a los robots para que lo posicione en el buscador
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> configura el tamaño de la pagina y se puede automaticamente ver en mobiles
+    </head>
+
+    <body>
+        <header> cabecera de la pagina
+        <nav></nav> se usa para el navegador
+        </header>
+        <main> viene el contenido principal de la pagina
+            <section> secciones
+                <article> articulos dentro
+
+                </article>
+            </section>
+            para listas son:
+            <ul></ul> lista desordenada viene con puntos
+            <ol></ol> lista ordenada salen enumerados
+            dentro de una de estas podemos colocar  <li></li> que es una etiqueta de list index
+        
+        
+        </main> 
+        <footer>
+
+        </footer>
+
+        <p></p> parrafos
+        <h1></h1> es un titulo va del 1 al 6 donde 6 es mas pequeño
+        <a href="#">comentario</a> es una etiqueta de ancla llama a los link
+
+    </body>
+
+</html>
