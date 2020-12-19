@@ -6,10 +6,8 @@
 h1{
     font-family: serif;
 }
-#page-title{
-    font-family: Arial, Helvetica, sans-serif;
-}
 .title{
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
 }
 .main-nav {
