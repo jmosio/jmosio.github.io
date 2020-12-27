@@ -7,8 +7,13 @@ html{
     font-size: 62.5%;
 }
 .header{
-    background:#27353e;
+    background-color:#27353e;
+    /*height: 200px;*/
 
+}
+.header a{
+    color: white;
+    text-decoration: none;
 }
 .header-figure{
     height: 20rem;
@@ -16,7 +21,12 @@ html{
 }
 .header-barra{
     color:#d6c433;
-    font-size: 2rem;
+    font-size: 1.8rem;
+}
+.header-h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 3rem;
+
 }
 .badgets{
     width: 50px;
