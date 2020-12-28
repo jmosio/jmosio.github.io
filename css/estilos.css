@@ -1,3 +1,6 @@
+/*Paleta de Colores
+de Fondo: Header>Footer= #27353e
+Fondo de Contact= #056fff*/
 *{
     box-sizing: border-box;
     padding: 0;
@@ -5,10 +8,11 @@
 }
 html{
     font-size: 62.5%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 .header{
     background-image: url('../pics/fondo_header.jpg');
-    background-color:#27353e;
+    background-color:#071a52;
 }
 .menu{
     width: 80%;
@@ -23,22 +27,22 @@ nav>ul>li{
 }
 nav ul{
     list-style: none;
-    background-color: #27353e;
+    background-color: #071a52;
     text-align: center;
     padding: 0;
     z-index: 2;
 }
 nav li{
-    width: 15%;
-    border-right: 3px solid #d7d7b4;
+    width: 18%;
     height: 50px;
     line-height: 50px;
     display: inline-block;
     margin-right: -4px;
 }
 .menu li>a{
-    font-size: 1.74rem;
+    font-size: 2.4rem;
     color: white;
+    text-decoration: none;
 }
 nav>ul>il>a{
     text-decoration: none;
@@ -49,27 +53,26 @@ nav>ul>il>a{
     margin-top: 10%;
     margin-bottom: 25%;
     padding: 1%;
-    width: 28%;
-    height: 30%;
+    width: 32%;
     display: inline-block;
-    background-color: #27353e;
+    background-color: #071a52;
     border-top-right-radius: 200px 200px;
     border-bottom-right-radius: 200px 200px;
     border: 2px solid #fff;
     border-left: none;
-    transition: 1s width;
-}
-hi,h2{
-    text-align: center;
-    font-size: xx-large;
 }
 h1{
-    width: 80%;
-    margin: 4% 0;
+    font-size: 2.7rem;
+    width: 78%;
+    margin: 3% 0;
     font-variant: small-caps;
     font-weight: bolder;
     display: inline-block;
     color: white;
+}
+h2{
+    text-align: center;
+    font-size: xx-large;
 }
 header img{
     margin-left: 1.5%;
@@ -83,7 +86,7 @@ header img{
     height: 50px;
 }
 .contacts{
-    background-color: #056fff;
+    background-color: #17b978;
     color: white;
     height: 140px;
     display: flex;
@@ -92,7 +95,7 @@ header img{
     justify-content: space-between;
 }
 .form-email input{
-    border-color: gray;
+    border-color: #898b8a;
     border-style: solid;
     border-radius: 5px;
     padding: 3px 0px 5px 70px;
@@ -103,9 +106,11 @@ header img{
     background-position-y: center;
 }
 .form-email button{
+    border-color: #aaaaaa;
     display: block;
     background: transparent;
     color: white;
+    font-size: 1.2rem;
     padding: 5px 0;
     border-radius: 5px;
     width: 80px;
@@ -140,7 +145,7 @@ header img{
     background-image: url('..//pics/instagram.svg');
 }
 .footer{
-    background-color:#27353e;
+    background-color:#120136;
     color: white;
     height:30px;   
     text-align: center;
