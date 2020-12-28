@@ -7,37 +7,85 @@ html{
     font-size: 62.5%;
 }
 .header{
+    background-image: url('../pics/fondo_header.jpg');
     background-color:#27353e;
-    display: flex;
-    justify-content: space-between;
-    /*height: 200px;*/
-
 }
-.header a{
+.menu{
+    width: 80%;
+    border-bottom-left-radius: 200px 200px;
+    border-bottom-right-radius: 200px 200px;
+    margin-top: 0;
+    margin-left: 10%;
+    border: 2px solid #fff;
+}
+nav>ul>li{
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    background-color: #27353e;
+    text-align: center;
+    padding: 0;
+    z-index: 2;
+}
+nav li{
+    width: 15%;
+    border-right: 3px solid #d7d7b4;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    margin-right: -4px;
+}
+.menu li>a{
+    font-size: 1.74rem;
     color: white;
+}
+nav>ul>il>a{
     text-decoration: none;
+    display: block;
+    transition: .5s background-color;
 }
-.header-figure{
-    height: 150px;
-    width: 150px;
+.container{
+    margin-top: 10%;
+    margin-bottom: 25%;
+    padding: 1%;
+    width: 28%;
+    height: 30%;
+    display: inline-block;
+    background-color: #27353e;
+    border-top-right-radius: 200px 200px;
+    border-bottom-right-radius: 200px 200px;
+    border: 2px solid #fff;
+    border-left: none;
+    transition: 1s width;
 }
-.header-barra{
-    display: flex;
-    font-size: 1.8rem;
+hi,h2{
+    text-align: center;
+    font-size: xx-large;
 }
-.header-h1{
+h1{
+    width: 80%;
+    margin: 4% 0;
+    font-variant: small-caps;
+    font-weight: bolder;
+    display: inline-block;
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-    font-size: 3rem;
+}
+header img{
+    margin-left: 1.5%;
+    width: 3.5%;
+    height: auto;
+    float: right;
+    position: absolute;
 }
 .badgets{
     width: 50px;
     height: 50px;
 }
-.contact{
+.contacts{
     background-color: #056fff;
     color: white;
-    height: 150px;
+    height: 140px;
     display: flex;
     align-items: center;
     padding: 15px;
@@ -47,7 +95,7 @@ html{
     border-color: gray;
     border-style: solid;
     border-radius: 5px;
-    padding: 5px 0px 5px 70px;
+    padding: 3px 0px 5px 70px;
     background-image: url(../pics/envelope.svg);
     background-size: 16px 16px;
     background-repeat: no-repeat;
@@ -64,10 +112,10 @@ html{
     margin-top: 8px;
 }
 .form-email h3{
-    font-size: 2.05rem;
+    font-size: 1.7rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-    padding: 10px 0;
-    text-transform:lowercase;
+    padding: 15px 0;
+    
 }
 .social{
     padding-right: 20px;
@@ -85,14 +133,17 @@ html{
 .social-link.github{
     background-image: url('..//pics/github.svg');
 }
+.social-link.linkedin{
+    background-image: url('..//pics/linkedin.svg');
+}
 .social-link.instagram{
     background-image: url('..//pics/instagram.svg');
 }
 .footer{
     background-color:#27353e;
     color: white;
-    height: 80px;   
-}
-.footer-h6{
-    font-size: 1.3rem;
+    height:30px;   
+    text-align: center;
+    font-size: 1.1rem;
+    padding-top: 5px;
 }
