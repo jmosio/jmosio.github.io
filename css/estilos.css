@@ -8,6 +8,8 @@ html{
 }
 .header{
     background-color:#27353e;
+    display: flex;
+    justify-content: space-between;
     /*height: 200px;*/
 
 }
@@ -16,21 +18,80 @@ html{
     text-decoration: none;
 }
 .header-figure{
-    height: 20rem;
-    width: 20rem;
+    height: 150px;
+    width: 150px;
 }
 .header-barra{
-    color:#d6c433;
+    display: flex;
     font-size: 1.8rem;
 }
 .header-h1{
+    color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     font-size: 3rem;
-
 }
 .badgets{
     width: 50px;
     height: 50px;
+}
+.contact{
+    background-color: #056fff;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-between;
+}
+.form-email input{
+    border-color: gray;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px 0px 5px 70px;
+    background-image: url(../pics/envelope.svg);
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position-x: 35px;
+    background-position-y: center;
+}
+.form-email button{
+    display: block;
+    background: transparent;
+    color: white;
+    padding: 5px 0;
+    border-radius: 5px;
+    width: 80px;
+    margin-top: 8px;
+}
+.form-email h3{
+    font-size: 2.05rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    padding: 10px 0;
+    text-transform:lowercase;
+}
+.social{
+    padding-right: 20px;
+}
+.social-link{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 15px;
+    background-size: 50px 50px;
+}
+.social-link.twitter{
+    background-image: url('..//pics/twitter.svg');
+}
+.social-link.github{
+    background-image: url('..//pics/github.svg');
+}
+.social-link.instagram{
+    background-image: url('..//pics/instagram.svg');
+}
+.footer{
+    background-color:#27353e;
+    color: white;
+    height: 80px;   
 }
 .footer-h6{
     font-size: 1.3rem;
