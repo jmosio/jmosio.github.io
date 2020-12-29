@@ -74,6 +74,18 @@ h2{
     text-align: center;
     font-size: xx-large;
 }
+#portfolio{
+    background-color: #eaf6f6;
+}
+#certificate{
+    border: 1px solid red;
+    background-color: #eaf6f6;
+}
+.badgets{
+    display: flex;
+
+
+}
 header img{
     margin-left: 1.5%;
     width: 3.5%;
